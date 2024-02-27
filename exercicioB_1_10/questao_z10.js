@@ -4,7 +4,7 @@ import * as io from './io.js'
 
 //função que verifica se o ano informado na data é bissexto
 function verificador_ano_bissexto(ano){
-    return ano % 4 === 0 && ano % 100 !== 0 && ano % 400 === 0
+    return ano % 4 === 0 && (ano % 100 !== 0 || ano % 400 === 0)
             
 }
 
