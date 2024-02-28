@@ -7,7 +7,7 @@ export function get_number(numero){
 
 export function print(texto){
 
-    return question(texto)
+    console.log(texto)
 } 
 
 export function get_number_int(numero){
